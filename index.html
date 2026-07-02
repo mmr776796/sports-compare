@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>不同运动类型对BMI改善效果对比 — 动态柱状图</title>
+<title>不同运动类型对BMI改善效果对比 — 修正版动态柱状图</title>
 <script src="https://cdn.jsdelivr.net/npm/echarts@5.5.1/dist/echarts.min.js"></script>
 <style>
 /* ===== Palette tokens ===== */
@@ -47,6 +47,16 @@ body {
   color: var(--text-primary);
   display: flex; justify-content: center;
   padding: 40px 20px 60px; min-height: 100vh;
+}
+.version-banner {
+  background: linear-gradient(90deg, var(--s-hiit), var(--s-ce));
+  color: white;
+  padding: 10px 14px;
+  border-radius: 999px;
+  text-align: center;
+  font-size: 0.9rem;
+  font-weight: 600;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
 }
 .dashboard {
   width: 100%; max-width: 960px;
@@ -137,6 +147,8 @@ body {
 </style>
 </head>
 <body>
+
+<div class="version-banner">已部署修正版 · 当前版本：2026-07-02</div>
 
 <div class="dashboard">
 
